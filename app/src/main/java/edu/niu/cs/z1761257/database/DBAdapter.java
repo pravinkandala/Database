@@ -20,7 +20,7 @@ public class DBAdapter {
 
     private static final String[] ALL_KEYS = new String[]{KEY_ROWID,KEY_NAME,KEY_STUDENTNUM};
 
-    private static final int COL_ROWID = 0,
+    public static final int COL_ROWID = 0,
                              COL_NAME = 1,
                              COL_STUDENTNUM = 2;
 
