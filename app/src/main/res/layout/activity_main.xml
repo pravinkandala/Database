@@ -19,22 +19,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Add"
-            android:id="@+id/addButton"
-            android:onClick="add" />
+            android:id="@+id/Add"
+            android:onClick="addRecord" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="clear"
-            android:id="@+id/clearButton"
-            android:onClick="clear" />
+            android:text="Clear"
+            android:onClick="clearAll" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Display"
             android:id="@+id/displayButton"
-            android:onClick="display" />
+            android:onClick="displayDB" />
     </LinearLayout>
 
     <TextView
